@@ -1,0 +1,142 @@
+/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    margin: 0px;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} */
+ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    width: 600px;
+    height: 500px;
+    font-family: 'Lato', sans-serif;
+}
+
+.box img{
+    height: 110px ;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.box {
+    font-weight: bold;
+}
+
+.box h1{
+    font-size: 57px;
+}
+
+.box h2{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.box h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.input-form {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    padding: 0 0 0 10px;
+    color: black;
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    border: solid white;
+}
+
+.btn-env {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    background: none;
+    background-color: rgb(4, 124, 252);
+    border: solid rgb(4, 124, 252);
+    border-radius: 6px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    cursor: pointer;;
+}
+
+.btn-env:hover {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    background: none;
+    background-color: rgb(2, 75, 153);
+    border: solid rgb(2, 75, 153);
+    border-radius: 6px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    cursor: pointer;;
+}
